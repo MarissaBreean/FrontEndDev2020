@@ -215,8 +215,8 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 12px;
+    border: 2px solid #ccc;
     resize: vertical;
     color: black;
 }
@@ -227,8 +227,8 @@ label {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: chartreuse;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
