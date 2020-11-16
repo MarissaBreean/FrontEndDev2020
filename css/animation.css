@@ -1,0 +1,73 @@
+/*CSS Animation*/
+
+.fade-in {
+    display: inline-block;
+    animation: fadeIn ease 9s;
+    -webkit-animation: fadeIn ease 9s;
+    -moz-animation: fadeIn ease 9s;
+    -o-animation: fadeIn ease 9s;
+    -ms-animation: fadeIn ease 9s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: chartreuse;
+    color: black;
+    font-size: large;
+    text-align: center;
+    height: 20px;
+    padding: 20px 0;
+}
+
+
+/*Pseudo-classes*/
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 2em;
+}

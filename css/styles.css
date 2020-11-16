@@ -1,0 +1,258 @@
+html {
+    color: chartreuse;
+    font-size: 1.5em;
+    line-height: 1.4;
+    box-sizing: border-box;
+    background: url(../img/louskyline4.jpg);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica, Helvetica Neue, Arial;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-container {
+    border-bottom: 8px solid chartreuse;
+}
+
+.footer-container,
+.main aside {
+    border: 10px solid chartreuse;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: black;
+}
+
+.title {
+    color: chartreuse;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background: chartreuse;
+}
+
+nav a:hover,
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 1.5em;
+    padding: 18px;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 10px;
+}
+
+.footer-container footer {
+    color: chartreuse;
+    padding: 40px;
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border: solid black 5px;
+    padding-top: 1px;
+    object-fit: fill;
+}
+
+p {
+    padding: 18px;
+}
+
+
+/*pseudoclasses*/
+
+ :root {
+    background-color: black;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 480px) {
+    nav a {
+        float: left;
+        width: 30%;
+        margin: 0 0 0 5%;
+        padding: 25px 1%;
+        margin-bottom: 0;
+    }
+    nav li:first-child a {
+        margin-left: 0;
+    }
+    nav li:last-child a {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px),
+only screen and (min-width: 700px) and (orientation: landscape) {
+    .title {
+        float: left;
+        font-size: 1.4em;
+    }
+    nav {
+        float: right;
+        width: 60%;
+    }
+    nav a {
+        padding: 15px 1%;
+    }
+    .main article {
+        float: left;
+        width: 57%;
+    }
+    .main aside {
+        float: right;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .wrapper {
+        width: 1026px;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 2em;
+    }
+    nav a {
+        padding: 25px 1%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 80%;
+        margin-top: 0;
+    }
+}
+
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* form style*/
+
+@media screen and (max-width: 480px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+    width: auto;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    color: black;
+}
+
+label {
+    padding: 10px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    background-color: #030207;
+    padding: 2px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 3px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
