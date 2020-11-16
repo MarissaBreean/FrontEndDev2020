@@ -10,7 +10,6 @@ const weeksPerYear = 52;
 const secondsPerDay = secsPerMin * minsPerHour * hoursPerDay;
 console.log(`There are ${secondsPerDay} seconds in a day, and since Code Louisville started Ive been stressing every single one.`);
 
-//document.getElementById("myForm").addEventListener("submit", myFunction)
 
 function myFunction(firstname, lastname) {
     var name = firstname + ' ' + lastname;
@@ -18,5 +17,3 @@ function myFunction(firstname, lastname) {
     return false;
 
 }
-
-//document.getElementById("myForm").removeEventListener("submit", myFunction)
