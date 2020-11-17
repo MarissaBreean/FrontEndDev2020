@@ -38,6 +38,13 @@ body {
     background: black;
 }
 
+h1,
+h2,
+p {
+    background-color: #030207;
+    padding: 15px;
+}
+
 .title {
     color: chartreuse;
 }
@@ -96,15 +103,8 @@ img {
     object-fit: fill;
 }
 
-p {
-    padding: 18px;
-}
-
-
-/*pseudoclasses*/
-
- :root {
-    background-color: black;
+section {
+    max-width: fit-content;
 }
 
 
@@ -162,6 +162,9 @@ only screen and (min-width: 700px) and (orientation: landscape) {
     }
 }
 
+
+/* media query for form*/
+
 @media screen and (max-width: 600px) {
     .col-25,
     .col-75,
@@ -189,7 +192,7 @@ only screen and (min-width: 700px) and (orientation: landscape) {
 }
 
 
-/* form style*/
+/* form style - specifically styles the form only*/
 
 @media screen and (max-width: 480px) {
     .col-25,
@@ -243,6 +246,7 @@ input[type=button]:hover {
 .container {
     background-color: #030207;
     padding: 2px;
+    max-width: auto;
 }
 
 .col-25 {
