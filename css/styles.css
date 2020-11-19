@@ -163,18 +163,6 @@ only screen and (min-width: 700px) and (orientation: landscape) {
 }
 
 
-/* media query for form*/
-
-@media screen and (max-width: 600px) {
-    .col-25,
-    .col-75,
-    input[type=submit] {
-        width: 80%;
-        margin-top: 0;
-    }
-}
-
-
 /* Clearfix */
 
 .clearfix:before,
@@ -193,15 +181,6 @@ only screen and (min-width: 700px) and (orientation: landscape) {
 
 
 /* form style - specifically styles the form only*/
-
-@media screen and (max-width: 480px) {
-    .col-25,
-    .col-75,
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-}
 
 .row:after {
     content: "";
